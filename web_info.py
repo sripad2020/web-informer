@@ -67,8 +67,8 @@ def code():
     textbox.insert(tkinter.INSERT, '\n')
     textbox.config(state='disabled')
 def clear():
-    textbox.config(state='enabled')
-    textbox.delete(0,tkinter.END)
+    textbox.config(state=tkinter.NORMAL)
+    textbox.delete(1.0,tkinter.END)
 lbl=tkinter.Label(root,text='welcome to the website informer')
 lbl.pack(pady=5)
 entry=tkinter.Entry(root,width=40)
