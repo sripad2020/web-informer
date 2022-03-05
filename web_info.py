@@ -49,6 +49,7 @@ def code():
         textbox.insert(tkinter.INSERT,j)
     textbox.insert(tkinter.INSERT, '\n')
     textbox.insert(tkinter.INSERT, '\n')
+    entry.delete(0,tkinter.END)
     textbox.insert(tkinter.INSERT, 'The links related to website is ')
     textbox.insert(tkinter.INSERT, '\n')
     for i in ref2:
